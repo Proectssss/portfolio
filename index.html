@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-portfolio-website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="contener1">
+            <nav>
+                <img src="./Logo/logo.jpeg" alt="logo" class="logo navbar">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#services">MY PROJECS</a></li>
+                    <li><a href="#portfolio">MY WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <!-- <i class="menue" onclick="closemenu()">&#9746</i> -->
+                    <i class="menue" onclick="openmenu()">&#9776</i>
+                </ul>
+               
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi,I'm <span>Pawan Dhobale</span> <br> From Shrirampur</h1><br>
+                <h2>Welcome to the my portfolio...</h2>
+
+            </div>
+        </div>
+        <!-- --------------------------ABOUT SECTION---------------------------- -->
+        <div id="about">
+            <div class="contener">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="pawan3.jpg" alt="img">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">
+                            ABOUT ME.
+                        </h1>
+                        <p> i am a dedicated and enthusiastic Computer Science student currently pursuing my education at 'RBNB collage Shrirampur'.
+                            Eager to delve into the dynamic world of technology,i am passionate about exploring the intricacies of computer science and its practical applications.<br><br>
+                            <b>Academic journey</b>: During my time at RBNB College,i have engaged in a comprehensive curriculum that has equipped me with a strong foundation in key 
+                            areas such as <i>data structures,algorithms,software engineering and web development.</i>i consistently strive to excel in my coursework,maintaining a keen interest in the evolving trends within the field.
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Hobbies</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML,CSS</span><br>Design,develop and test front-end website</li>
+                                <li><span>JavaScript</span><br>creating and include new features</li>
+                                <li><span>SQL/MongoDB</span><br> Database handling</li>
+                                <li><span>C/C++</span><br>strong besic</li>
+                                <li><span>DSA</span><br>linked-list,stack,tree,graph,sorting</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                               <li><span>Traveling</span><br>i liks trave very much<br></li>
+                                <li><span>Sports</span><br>Kabadi,Football</li>
+                            
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                
+                                <li><span>2024 -current</span><br>RBNB College, Shrirampur <br> bachelor of computer science</li>
+                                <li><span>2020 - 2022</span><br>complited my 11th and 12th at RBNB cillage shrirampur</li>
+                                <li><span>2020</span><br>complited my SSC at NEW English School NImgaon khairi </li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------------------------------services--------------------------------------- -->
+        <div id="services">
+            <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Snack game</h2>
+                    <p>i am Design the most atractive website and create the responcive web page</p>
+                    <a href="#">Check it</a>
+                </div>
+                <div>
+                    <h2>tic-toc game</h2>
+                    <p>create tic-toc game using html,css,js.
+                    </p>
+                    <a href="#">Check it</a>
+                </div>
+                <div>
+                    <h2>responcive portfolio website</h2>
+                    <p>create full responcive portfolio website,</p>
+                    <a href="#">Check it</a>
+                </div>
+                <div>
+                    <h2>responcive portfolio website</h2>
+                    <p>create full responcive portfolio website,</p>
+                    <a href="#">Check it</a>
+                </div>
+
+            </div>    
+            </div>
+    </div>
+
+        <!-- -------------------------------portfolio----------------------- -->
+        <div id="portfolio">
+            <div class="contener">
+                <h1 class="sub-title">My work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="4.jpg" alt="img">
+                        <div class="layer">
+                            <h3>rispocive website</h3>
+                            <p> i make a my self portfolio website . its give a full information abaut me </p>
+                            
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="6.jpg" alt="img">
+                        <div class="layer">
+                            <h3>music app</h3>
+                            <p> the app is wonderf ful working platform and i make the good web app to the using </p>
+                            
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="5.jpg" alt="img">
+                        <div class="layer">
+                            <h3>online shopping app</h3>
+                            <p> the app is wonderf ful working platform
+                                 and i make the good web app to the
+                                  using </p>
+                            
+                        </div>
+                    </div>
+                
+                </div>
+                <a href="#" class="btn">certificets</a>
+            </div>
+        </div>  
+  
+      <!-- -------------------------contact----------------------------- -->
+         <div id="contact">
+            <div class="contaner">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p>📩pawandhobale41@gamil.com</p>
+                        <p>📞9922803028</p>
+                        <p> GitHub id: <a href="">pawandhobale</a></p>
+                        <p>Instagram : <a href=""> pawan.dhobale</a></p>
+                        <p>Linkedln : <a href="">pawan dhobale</a></p>
+                        <a href="PAWAN RESUME.pdf" download class="btn btn2 ">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form >
+                            <input type="text" name="name" placeholder="Your name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="massage"  rows="6" placeholder="your massage"></textarea>
+                                <button type="submit" class="btn btn3">submit</button>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright @ pawan.dhobale </p>
+            </div>
+         </div>
+
+
+<script>
+
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+   for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+   } 
+   for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+   } 
+   event.currentTarget.classList.add("active-link");
+   document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+  
+ var sidemeu = document.getElementById("sidemenu");
+   function openmenu(){
+    sidemeu.style.right ="0";
+   }
+   function closemenu(){
+    sidemeu.style.right ="-200px";
+   }
+</script>
+
+</body>
+
+</html>
